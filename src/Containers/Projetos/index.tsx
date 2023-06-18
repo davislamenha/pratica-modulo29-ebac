@@ -2,7 +2,7 @@ import Titulo from '../../Components/Titulo'
 
 const Projetos = () => (
   <section>
-    <Titulo>Projetos</Titulo>
+    <Titulo fontSize={16}>Projetos</Titulo>
   </section>
 )
 
