@@ -1,5 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
+import { Theme } from './themes/dark'
+
 const EstiloGlobal = createGlobalStyle`
 * {
   margin: 0;
@@ -13,6 +15,7 @@ ul {
 }
 
 body {
+  background-color: ${(props) => (props.theme as Theme).corDeFundo};
   padding: 80px 0;
 
   @media (max-width: 768px) {
