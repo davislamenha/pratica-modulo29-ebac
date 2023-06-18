@@ -8,6 +8,10 @@ const EstiloGlobal = createGlobalStyle`
   font-family: 'Inter', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   padding-top: 80px;
 
@@ -23,7 +27,7 @@ export const Container = styled.div`
   width: min(100% - 30px, 1440px);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 128px auto;
+  grid-template-columns: 160px auto;
   column-gap: 56px;
 
   @media (max-width: 768px) {
